@@ -1,0 +1,124 @@
+body{
+  border-color: navy;
+  border-style:solid;
+  border-width: medium;  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80%;
+  margin: 0 auto;
+  min-width:320px;
+  padding-top: 1em;
+  width: 90%;
+}
+p{
+  margin: 0 0;
+}
+form 
+br{
+  clear: both;
+}
+form{
+  padding-left: 3.5em; 
+}
+h1{
+  color: navy;
+  margin: 0 auto;
+  padding-bottom: .75em;
+  padding-left: 1em; 
+  padding-top: .75em;
+}
+#footer{
+  border-color: navy;
+  border-style:solid ;
+  border-width: medium 0 0 0;
+  padding-bottom: .5em;
+  width:100%;
+}
+label{
+  float: left;
+  text-align:right;
+  width:10em;
+}
+.pad_top{
+  padding: 0em 1em;
+  padding-left: 1em;
+}
+input[type=number] {
+  border: 1px solid black;
+  margin-left: .5em;
+  margin-bottom: .2em;
+  max-width:300px;
+  width: 40%;
+}
+.margin_left{
+  margin:1em 14.4em;
+}
+#copyright{
+  margin-top:1em;
+  margin-bottom:1em;
+  padding-left:2em;
+}
+#submission{
+  padding-bottom:1em;
+  padding-left:4em;
+}
+@media screen and (max-width: 400px) {
+  body{
+    width: 90%;
+  }
+  h1{
+    color: navy;
+    margin: 0 1.5em;
+    padding-bottom: .75em;
+    padding-left: 0em; 
+    padding-top: .75em;
+    width:70%;
+  }
+  form{
+    padding-left: 3em;
+  }
+  #footer{
+    border-color: navy;
+    border-style:solid ;
+    border-width: medium 0 0 0;
+    padding-bottom: .5em;
+    width:100%;
+  }
+  form 
+  label {
+    float: none;
+    padding-left:0;
+    text-align:right;
+    width:10em;
+  }
+  p{
+    margin-bottom:1em;
+  }
+  .pad_top{
+    clear:both;
+    padding: 0em 1em;
+    padding-left: .5em;
+  }
+  input[type=number] {
+    border: 1px solid black;
+    clear:both;
+    margin-left: .5em;
+    margin-bottom: .2em;
+    width: 60%;
+  }
+  div 
+  label{
+    float:left;
+  }
+
+  .margin_left{
+    margin:1em 0em;
+  }
+
+  #copyright{
+    margin: 1em 3em;
+    padding-left: 0em; 
+  }
+  #submission{
+    padding-bottom: 1em;
+  }
+}
