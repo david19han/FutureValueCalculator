@@ -16,16 +16,26 @@
   </head>
   <body>
     <h1> Future Value Calculator </h1>
+   
     <div id="submission">
       <label class="pad_top"> Investment Amount: </label>
-      <span>${user.currencyamount}</span><br>
+      <span>${moneycurrency}</span><br>
       <label class="pad_top"> Yearly Interest Rate: </label>
       <span> ${user.rate}</span><br>
       <label class="pad_top"> Number of Years: </label>
       <span> ${user.years}</span><br>
       <label class="pad_top"> Future Value: </label> 
       <span> ${user.currencyfuturevalue}</span><br>
-    </div>    
+    </div>
+     <elon:currencyformat>
+       <p> ${investmentamount} </p>
+     
+    </elon:currencyformat>
+       
+       <elon:currencyformat>
+      
+       <p> This is our ${moneycurrency} </p>
+    </elon:currencyformat>
     <%@ include file="/footer.jsp" %>
   </body>
 </html>

@@ -5,7 +5,7 @@
   <uri>/WEB-INF/tlds/rhodeshan</uri>
   <tag>
     <name>currencyformat</name>
-    <tag-class>murach.tags.CurrencyFormatTag</tag-class>
+    <tag-class>ed.elon.tags.CurrencyFormatTag</tag-class>
     <body-content>JSP</body-content>
   </tag>
 </taglib>

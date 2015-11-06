@@ -55,6 +55,11 @@ public class User implements Serializable {
     double futurevalue = amount * Math.pow((1 + rate * .01), years);
     return futurevalue;
   }
+  
+  public double getCalculatefvalue(int numyears){
+    double futurevalue = amount * Math.pow((1 + rate * .01), numyears);
+    return futurevalue;
+  }
 
   public String getCurrencyfuturevalue() {
     double value = amount * Math.pow((1 + rate * .01), years);
